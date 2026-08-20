@@ -1,16 +1,16 @@
 # Pizza Sales Data Analysis
 
-An interactive data analysis dashboard built to analyze pizza sales performance, customer ordering patterns, product demand, and revenue trends.
+An interactive pizza sales analysis project using **SQL and Microsoft Excel** to analyze revenue, order volume, product performance, customer ordering patterns, and sales trends.
 
-## Dashboard Overview
-
-The dashboard provides an interactive view of pizza sales across different dates, times, categories, sizes, and individual pizza products.
+## Dashboard
 
 ![Pizza Sales Dashboard](dashboard_overview.png)
 
-## Key KPIs
+The Excel dashboard provides an interactive view of pizza sales using a date/month slider to explore sales performance across different time periods.
 
-| Metric                   |   Value |
+## Key Performance Indicators
+
+| KPI                      |   Value |
 | ------------------------ | ------: |
 | Total Revenue            | $70,397 |
 | Total Orders             |   1,840 |
@@ -18,89 +18,83 @@ The dashboard provides an interactive view of pizza sales across different dates
 | Average Order Value      |  $38.26 |
 | Average Pizzas per Order |    2.32 |
 
-## Analysis Performed
+## Analysis
 
-* Analyzed **1,840 orders** and **4,261 pizzas sold**.
-* Compared order volume across different **days of the week**.
-* Identified hourly ordering patterns to determine **peak sales periods**.
-* Analyzed sales contribution across **Chicken, Classic, Supreme, and Veggie** categories.
-* Compared pizza demand across **Large, Medium, Regular, X-Large, and XX-Large** sizes.
-* Identified the **top 5 best-selling pizzas** by quantity sold.
-* Identified the **5 lowest-selling pizzas** to highlight underperforming products.
-* Added an interactive **date/month slider** to filter the dashboard and explore sales trends over different periods.
+The project analyzes:
 
-## Key Business Insights
+* Daily order trends
+* Hourly order patterns
+* Revenue and sales performance
+* Pizza category performance
+* Pizza size performance
+* Best-selling pizzas
+* Worst-selling pizzas
+* Order volume across different time periods
 
-### Peak Ordering Periods
+## Key Insights
 
-Friday and Saturday show strong order volumes, while the hourly analysis indicates that order demand is concentrated around **12 PM–1 PM** and **5 PM–7 PM**.
+### Ordering Patterns
 
-### Category Performance
+Orders are highest toward the **end of the working week and weekends**, with particularly strong demand on Friday and Saturday.
 
-The **Classic** pizza category contributes the highest share of sales and has the highest number of pizzas sold among the analyzed categories.
+Hourly analysis shows the highest order volumes around **12 PM–1 PM** and **5 PM–7 PM**, indicating strong lunch and evening demand.
 
-### Size Performance
+### Pizza Categories
 
-**Large pizzas** account for the largest share of pizza sales by size.
+The **Classic** category contributes the highest share of pizza sales and has the highest number of pizzas sold among the four categories.
 
-### Best-Selling Products
+### Pizza Sizes
 
-The leading products by pizzas sold include:
+**Large pizzas** account for the largest proportion of sales by size, representing approximately **46.53%** of pizza sales.
 
-1. The Barbecue Chicken Pizza — 231
-2. The Hawaiian Pizza — 217
-3. The Thai Chicken Pizza — 213
-4. The Classic Deluxe Pizza — 204
-5. The California Chicken Pizza — 194
+### Best-Selling Pizzas
 
-### Underperforming Products
+| Rank | Pizza                    | Pizzas Sold |
+| ---: | ------------------------ | ----------: |
+|    1 | Barbecue Chicken Pizza   |         231 |
+|    2 | Hawaiian Pizza           |         217 |
+|    3 | Thai Chicken Pizza       |         213 |
+|    4 | Classic Deluxe Pizza     |         204 |
+|    5 | California Chicken Pizza |         194 |
 
-The dashboard also identifies the lowest-selling products, including the **Brie Carre Pizza**, which appears among the weakest performers in both order volume and revenue.
+### Lowest-Selling Products
 
-## Tools & Technologies
+The analysis also identifies the lowest-performing pizzas, helping highlight products that may require promotional or menu-level review.
 
-* Power BI
-* Data Analysis
-* Data Visualization
-* DAX
-* Interactive Slicers
-* KPI Analysis
-* Business Intelligence
+## 🛠️ Tools Used
 
-## Dashboard Features
+* **SQL** — Data storage, querying, aggregation, and analysis
+* **Microsoft Excel** — Data analysis, calculations, visualization, dashboard creation, and interactive filtering
 
-* KPI cards for high-level performance monitoring
-* Daily order trend analysis
-* Hourly order trend analysis
-* Category-wise sales analysis
-* Size-wise sales analysis
-* Best- and worst-selling product analysis
-* Interactive date/month filtering
-* Business-focused visualizations
+## 📈 Excel Dashboard Features
+
+* KPI cards for overall sales performance
+* Daily order trend visualization
+* Hourly order trend visualization
+* Pizza category analysis
+* Pizza size analysis
+* Best-selling product analysis
+* Worst-selling product analysis
+* Interactive date/month slider
 
 ## Objective
 
-The objective of this project was to transform raw pizza sales data into an interactive business intelligence dashboard that helps identify sales patterns, high-performing products, peak ordering periods, and areas requiring further attention.
+The objective of this project was to use SQL and Excel to transform pizza sales data into an interactive business dashboard and identify actionable patterns in **sales performance, product demand, and customer ordering behavior**.
 
-## Repository Contents
+## Repository Structure
 
 ```text
 Pizza-Sales-Data-Analysis/
 │
-├── dashboard/
-│   └── Pizza_Sales_Dashboard.pbix
+├── SQL/
+│   └── pizza_sales_queries.sql
 │
-├── dataset/
-│   └── pizza_sales.csv
+├── Excel/
+│   └── Pizza_Sales_Analysis.xlsx
 │
-├── screenshots/
+├── Screenshots/
 │   └── pizza_sales_dashboard.png
-│
-├── insights/
-│   └── key_insights.md
 │
 └── README.md
 ```
 
-
-MCA — AI & Data Science
